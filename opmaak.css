@@ -1,0 +1,30 @@
+body {
+    background-color: #000000 ;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbalk ul{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #8b080f ;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbalk a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.50rem;
+    padding: 0.5rem;
+    border: 0;
+    transition: background-color 0.5s;
+}
+
+.navbalk a:hover{
+    background-color: white;
+    color: #303030;
+}
