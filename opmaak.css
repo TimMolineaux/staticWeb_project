@@ -11,6 +11,10 @@ h1 {
     padding: 10px;
 }
 
+a {
+    color: white;
+}
+
 .navbalk ul {
     display: flex;
     justify-content: flex-start;
@@ -102,6 +106,13 @@ button:hover {
     border-color: #8b080f;
 }
 
-.filmgrid-items a{
-    color: white;
+.detail-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.detail-item {
+    
 }
