@@ -1,20 +1,26 @@
 body {
-    background-color: #000000 ;
+    background-color: #000000;
     color: white;
     margin: 0;
     padding: 0;
 }
 
-.navbalk ul{
+h1 {
+    background-color: #303030;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbalk ul {
     display: flex;
     justify-content: flex-start;
-    background-color: #8b080f ;
+    background-color: #8b080f;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navbalk a{
+.navbalk a {
     color: white;
     display: flex;
     text-decoration: none;
@@ -24,12 +30,12 @@ body {
     transition: background-color 0.5s;
 }
 
-.navbalk a:hover{
+.navbalk a:hover {
     background-color: white;
     color: #303030;
 }
 
-.form-page{
+.form-page {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -74,4 +80,28 @@ button {
 button:hover {
     background-color: white;
     color: #000000;
+}
+
+.filmgrid {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.filmgrid-items {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 10px;
+    margin: 50px;
+    background-color: #303030;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #8b080f;
+}
+
+.filmgrid-items a{
+    color: white;
 }
