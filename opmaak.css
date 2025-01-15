@@ -28,3 +28,50 @@ body {
     background-color: white;
     color: #303030;
 }
+
+.form-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #303030;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #303030;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b080f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #000000;
+}
