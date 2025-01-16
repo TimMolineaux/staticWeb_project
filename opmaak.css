@@ -155,11 +155,15 @@ button:hover {
     padding: 1rem;
 }
 
+.detail-list {
+    font-size: 23px;
+}
+
 .filmoverzicht {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
     flex-direction: column;
 }
 
