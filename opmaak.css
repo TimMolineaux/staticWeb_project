@@ -125,20 +125,32 @@ button:hover {
     padding: 1rem;
 }
 
-.detail-item {
-    
-}
-
 .filmoverzicht {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 55vh;
+    flex-direction: column;
+}
+
+.filmoverzicht form {
+    display: flex;
+    flex-direction: row;
+}
+
+.filmoverzicht input[type="text"]{
+    min-width: 400px;
+    max-height: fit-content;
+}
+
+.filmoverzicht button {
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 .filmoverzicht table {
     background-color: #303030;
-    width: 25%;
+    width: 50%;
 }
 
 .filmoverzicht thead {
@@ -152,6 +164,11 @@ button:hover {
 .filmoverzicht th, tr, td {
     border: 1px inset white;
     border-collapse: collapse;
+}
+
+.options {
+    text-align: center;
+    min-width: 50px;
 }
 
 .movie-form-page {
