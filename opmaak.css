@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #000000;
     color: white;
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Text';
+}
+
+p {
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
 }
 
 h1 {
@@ -206,7 +217,6 @@ button:hover {
 }
 
 .movie-form-page {
-    /*kan ws korter*/
     height: 140vh;
     display: flex;
     justify-content: center;
@@ -219,4 +229,5 @@ button:hover {
 
 .show-more {
     text-align: center;
+    font-family: 'Times New Roman';
 }
