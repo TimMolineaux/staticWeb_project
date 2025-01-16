@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new movie</title>
+    <link rel="stylesheet" href="../opmaak.css">
+</head>
+<body>
+    <nav class="navbalk">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="movie-form-page">
+        <div class="form-container">
+            <form class="form" action="admin.html">
+
+                <h2>Add movie</h2>
+
+                <label for="director">Director:</label><br>
+                <input type="text" id="director" name="director" required><br>
+
+                <label for="writer">Writer:</label><br>
+                <input type="text" id="writer" name="writer" required><br>
+
+                <label for="cast">Cast members:</label><br>
+                <input type="text" id="cast" name="cast" required><br>
+
+                <label for="genre">Genres:</label><br>
+                <input type="text" id="genre" name="genre" required><br>
+
+                <label for="duration">Duration:</label><br>
+                <input type="text" id="duration" name="duration" required><br>
+
+                <label for="release">Release date:</label><br>
+                <input type="date" id="date" name="date" required><br>
+
+                <label for="plot">Plot summary:</label><br>
+                <textarea name="plot" id="plot" rows="5" required></textarea><br>
+
+                <button type="submit" value="submit">Add movie</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

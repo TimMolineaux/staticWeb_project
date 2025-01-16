@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adminpagina</title>
+    <title>Admin page</title>
     <link rel="stylesheet" href="../opmaak.css">
 </head>
 
@@ -15,9 +15,28 @@
         </ul>
     </nav>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, veritatis! Eveniet numquam harum, voluptatibus
-        dignissimos illo consectetur vel provident doloribus vitae ratione doloremque labore atque dolorem ad perspiciatis
-        repellat officiis!</p>
+    <div class="filmoverzicht">
+        <table>
+            <thead>
+                <th>Movie name</th>
+                <th colspan="2">Options</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Drive</td>
+                    <td class="options"><a href="film-toevoegen.html">Edit</button></td>
+                    <td class="opttions"><a href="">Remove</a></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3"><a href="film-toevoegen.html">Add new movie</a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 
 </html>

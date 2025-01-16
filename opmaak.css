@@ -47,10 +47,13 @@ a {
 }
 
 .form-container {
-    width: 300px;
+    width: 400px;
     padding: 20px;
     background-color: #303030;
     text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #8b080f;
 }
 
 .form {
@@ -59,15 +62,24 @@ a {
 }
 
 label {
-    display: block;
+    display: flex;
     text-align: left;
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="date"] {
     padding: 10px;
     border: 1px solid #303030;
     border-radius: 4px;
+    display: flex;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #303030;
+    border-radius: 4px;
+    display: flex;
 }
 
 button {
@@ -115,4 +127,36 @@ button:hover {
 
 .detail-item {
     
+}
+
+.filmoverzicht {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.filmoverzicht table {
+    background-color: #303030;
+    width: 25%;
+}
+
+.filmoverzicht thead {
+    background-color: #8b080f;
+}
+
+.filmoverzicht tfoot {
+    text-align: center;
+}
+
+.filmoverzicht th, tr, td {
+    border: 1px inset white;
+    border-collapse: collapse;
+}
+
+.movie-form-page {
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
